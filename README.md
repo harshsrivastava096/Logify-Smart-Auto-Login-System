@@ -58,7 +58,7 @@ Simple. Fast. Secure. ⚡
 
 ## 📸 Preview
 
-
+https://logify-ac737.web.app/
 
 ---
 
