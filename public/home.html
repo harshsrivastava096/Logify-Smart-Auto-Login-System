@@ -31,52 +31,7 @@
       <h1>🎉 Welcome to Logify</h1>
       <p>You have successfully logged in.</p>
     </div>
-    <!-- <script>
-      const user = localStorage.getItem("loggedInUser");
-      const loginTime = localStorage.getItem("loginTime");
-
-      if (!user || !loginTime) {
-        window.location.href = "login.html";
-      } else {
-        document.getElementById("username").innerText = user;
-        startTimer(loginTime);
-      }
-
-      function startTimer(startTime) {
-        setInterval(() => {
-          const now = Date.now();
-          const diff = now - startTime;
-
-          const hours = Math.floor(diff / (1000 * 60 * 60));
-          const minutes = Math.floor((diff / (1000 * 60)) % 60);
-          const seconds = Math.floor((diff / 1000) % 60);
-
-          document.getElementById("loginTimer").innerText = `${pad(
-            hours
-          )}:${pad(minutes)}:${pad(seconds)}`;
-        }, 1000);
-      }
-
-      function pad(num) {
-        return num.toString().padStart(2, "0");
-      }
-
-      function toggleDropdown() {
-        document.getElementById("dropdown").classList.toggle("show");
-      }
-
-      function logout() {
-        localStorage.removeItem("loggedInUser");
-        localStorage.removeItem("loginTime");
-        window.location.href = "login.html";
-      }
-
-      window.onclick = function (event) {
-        if (!event.target.closest(".user-menu")) {
-          document.getElementById("dropdown").classList.remove("show");
-        }
-      };
-    </script> -->
+    
     <script>
   console.log("🏠 Home page loaded");
 
@@ -153,3 +108,4 @@
 
   </body>
 </html>
+
