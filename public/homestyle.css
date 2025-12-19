@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #898eef;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* USER MENU */
+.user-menu {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-menu i {
+  font-size: 22px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  min-width: 140px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.dropdown a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.dropdown a:hover {
+  background: #ff7e5f;
+}
+
+.timer-box {
+  font-size: 20px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-right: 8px;
+  font-family: monospace;
+}
+
+.show {
+  display: block;
+}
+
+/* CARD */
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease;
+}
+
+/* HOME CONTENT */
+.home-container {
+  margin: 80px auto;
+  width: 350px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
