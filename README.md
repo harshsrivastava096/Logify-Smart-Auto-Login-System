@@ -62,12 +62,6 @@ https://logify-ac737.web.app/
 
 ---
 
-## 📫 Connect & Contribute
-
-Feel free to connect & contribute!  
-
----
-
 ## ⭐ Support
 
 If you like this project:  
@@ -77,4 +71,10 @@ If you like this project:
 
 ---
 
-🔥 **Logify – Login made smarter, faster & cooler** 😎
+## 📬 Contact
+
+For support or feedback, contact:  
+✉ harshsrivastava09682@gmail.com  
+📍 Gorakhpur, India
+
+---
