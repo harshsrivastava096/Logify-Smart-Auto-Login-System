@@ -75,6 +75,5 @@ If you like this project:
 
 For support or feedback, contact:  
 ✉ harshsrivastava09682@gmail.com  
-📍 Gorakhpur, India
 
 ---
